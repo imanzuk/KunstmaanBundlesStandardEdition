@@ -6,6 +6,12 @@
     "autoload": {
         "psr-0": { "": "src/", "SymfonyStandard": "app/" }
     },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/imanzuk/KunstmaanBundlesCMS"
+        }
+    ],
     "require": {
         "php": ">=5.3.3",
         "symfony/symfony": "~2.3",
